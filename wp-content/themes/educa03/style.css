@@ -1,0 +1,672 @@
+/*
+Theme Name: Educa03
+Author: Cristina Oliver
+Description: Bootstrap based Web converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+
+*{
+	font-family: Roboto;
+}
+
+a:hover,
+a:focus{
+	text-decoration: none !important;
+}
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a:focus{
+	color: #7BE1FC;
+}
+
+p{
+	color: #8E8E8E;
+	font-weight: 300;
+	margin: 0 0 20px;
+}
+
+p.blue{
+	font-size: 18px;
+	color: #8E8E8E;
+	margin: 20px 0 20px;
+}
+
+
+h2{
+	margin-top: 10px;
+	color: #fff;
+}
+
+body{
+	font-size: 15px;
+	background-color: #fff;
+}
+
+label {
+	color: #494949;
+	font-weight: 300;
+}
+
+footer{
+	background-color: #1CC0F2;
+}
+
+footer .navbar-default {
+	min-height: 120px;
+    margin-top: 45px;
+    text-align: center;
+    width: 100%;
+} 
+
+footer p{
+	color: #fff; 
+}
+
+footer .row{
+	margin: 0;
+}
+
+footer .row > div
+{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.navbar-brand {
+  	padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navbar-default {
+    background-color: #1CC0F2;
+    border: none;
+
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0;
+
+}
+
+.navbar-default .navbar-nav > li > a::before {
+   content: "/";
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.6s ease 0s;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: #fff;
+	border-width: 2px;
+}
+
+.navbar-default .navbar-fixed-bottom{
+	min-height: 120px;
+}
+
+#bs-example-navbar-collapse-1 .navbar-nav {
+    padding-right: 50px;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*.container .row{
+	margin-left: -15px;
+	margin-right: -15px; 
+}*/
+
+.jumbotron {
+	background:none no-repeat center center;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+ }
+
+#bebe.jumbotron{
+ 	background-image: 
+
+ 	linear-gradient(
+      rgba(000, 000, 000, 0.20), 
+      rgba(000, 000, 000, 0.20)
+    ),
+
+ 	url(./img/bebebracos.png);
+ }
+
+.color-box{
+ 	background-color: #1CC0F2;
+ 	width: 100%;
+ }
+ 
+.color-box-small{
+ 	background-color: #1CC0F2;
+ 	height: 15px;
+ 	width: 100%;
+ }
+
+ img.text-blue.text-center{
+ 	margin-bottom: -10px;
+ 	margin-left: -10px;
+ }
+
+#mans.jumbotron{
+	background-image: url(./img/mans.png);
+	height: 250px;
+}
+
+.jumbotron-container{
+	margin: 100px auto;
+}
+
+.jumbotron-container hr {
+    background: none;
+    border: 2px solid #fff;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.jumbotron-container p{
+	margin-bottom: 50px;
+	text-align: center;	
+}
+
+.jumbotron-container p img{
+	display: inline;
+}
+
+
+.jumbotron-container h2{
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	font-size: 43px;
+}
+
+.jumbotron-container.blue{
+
+	margin: 15px auto;
+	padding: 50px 0;
+}
+
+.jumbotron-container.blue hr {
+    background: none;
+    border: 2px solid #fff;
+    width: 30%;
+    border-radius: 2px;
+}
+
+.jumbotron-container.blue p{
+	margin-bottom: 30px;
+	text-align: center;	
+}
+
+.jumbotron-container.blue p img{
+	display: inline;
+}
+
+.jumbotron-container h3{
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	font-size: 33px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container-yellow hr {
+    background: none;
+    border: 2px solid #fff;
+    width: 0%;
+    height: 80px;
+    border-radius: 2px;
+}
+
+.well{
+	padding: 12px;
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	background-color: transparent;
+    border-radius: 0;
+    border: 3px solid #1CC0F2;
+}
+
+.well-yellow{
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	background-color: #FAB120;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.well.well-yellow h2{
+	text-transform: none;
+	font-size: 45px;
+}
+
+
+.well .book-image{
+	float: left;
+	margin-right: 15px;
+	margin-top:7px;
+}
+
+h2{
+	display:block;
+	/*text-transform: uppercase;*/
+	margin:0;
+
+}
+
+h4{
+	margin-top: 0;
+	margin-bottom: 60px;
+	color: #1CC0F2;
+	display:block;
+	font-weight: 300;
+}
+
+.book-block{
+	font-size:45px;
+	font-weight: 700;
+
+}
+
+.book-block span{
+	display:block;
+	font-size:18px;
+	font-weight: 300;
+	margin-top: -12px;
+	margin-bottom: 50px;
+}
+
+.mail-image{
+	width:55px;
+	height:55px;
+	background: url(./img/mail_grey.png) no-repeat center center;
+	margin-right: 10px;
+	margin-left: 30px;
+	float: left;
+	padding-top: 6px;
+}
+
+.inside h2{
+	margin-top: 50px;
+	font-size: 45px;
+}
+
+.row-yellow{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-right: -50px;
+	margin-left: -50px;
+}
+
+.display-ib{
+	display: inline-block;
+	margin-bottom: 5em;
+}
+
+.lead {
+	margin-bottom: 50px;
+}
+
+.fa {
+	font-size: 25px !important;
+	color: #1cc0f2;
+	border-radius: 30px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.fa-facebook {
+	    padding-left: 20px;
+    padding-right: 20px;
+}
+	
+.fa:hover{
+	color: #fff;
+	background-color: #7BE1FC;
+	transition: all 0.3s ease 0s;
+}
+
+.button{
+    padding: 10px 25px 0px 25px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff !important;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 26px;
+    text-decoration: none;
+    text-align: left;
+    transition: all 0.6s ease 0s;
+}
+
+.button.last{
+	margin-right: 0;
+}
+
+.button.big{
+	padding: 6px 25px 3px 25px;
+}
+
+.button.yellow{
+    background-color: #FAB120;
+    border-bottom: 7px solid #FAB120;
+}
+
+.button.yellow:hover{
+    background-color: #FFD797;
+}
+
+.button.yellow:focus{
+    border-bottom: 7px solid #FFD797;
+    color: #FAB120 !important;
+    background-color: #FFD797; 
+}
+
+.button span.detail{
+	color: inherit;
+	margin-top: -5px;
+	font-size: 16px;
+	display: block;
+	font-weight: 300;
+}
+
+.button .donate-image{
+	width: 35px;
+	height: 35px;
+	background: url(./img/donate_white.png) no-repeat center center;
+	color: inherit;
+	float: left;
+	margin-right: 12px;
+}
+
+
+.button:focus .donate-image{
+	background: url(./img/donate_green.png) no-repeat center center;
+}
+
+.button.big.download-image, .button.big.download-image:hover{
+	background-image: url(./img/download_white.png);
+	background-repeat: no-repeat;
+	background-position: left 25px center;
+	padding-left:90px;
+}
+
+.button.big.download-image:focus{
+	background-image: url(./img/download_yellow.png);
+	background-repeat: no-repeat;
+	background-position: left 25px center;
+}
+
+.button.green{
+	margin-bottom: 20px;
+    background: #95D8B4;
+    border-bottom: 7px solid #95D8B4;
+}
+
+.button.green:hover{
+    background: #BBEFD0;
+}
+
+.button.green:focus{
+    border-bottom: 7px solid #E4F9EC;
+    color: #95D8B4;
+    background: #E4F9EC; 
+}
+
+.button.blue{
+    background: #1CC0F2;
+    border-bottom: 7px solid #1CC0F2;
+}
+
+.button.blue:hover{
+    background: #77DFF7;
+}
+
+.button.blue:focus{
+    border-bottom: 7px solid #D7F9FF;
+    color: #1CC0F2;
+    background: #D7F9FF; 
+}
+
+.bg-blue{
+    background:#1CC0F2 !important;
+}
+
+.text-blue{
+	color: #1CC0F2;
+}
+
+h2.baby{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+h2.baby img{
+    position: absolute;
+    right: -100px;
+    top: -6px;
+}
+
+.row-enviar{
+	margin-bottom: 70px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.right-addon .mail-image{
+ 	right: 0px;
+ }
+
+.center-vertical {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-justify-content: center;
+    -ms-flex-pack: center;
+    height: 100%;
+    display: box;
+    box-align: center;
+    box-pack: center;
+}
+
+blockquote {
+    padding: 2px 20px;
+    margin: 2px 0 60px;
+}
+
+.glyphicon.glyphicon-triangle-right{
+	color: #95D8B4;
+	top: 3px;
+	margin-left: -4px;
+}
+
+.form-container{
+	max-width: 600px;
+}
+
+.form-control {
+	border: 0;
+	box-shadow: none;
+    color: #B5B5B5;
+    background-color: #E2E2E2;
+   
+}
+
+textarea.form-control {
+	margin-bottom: 50px;
+}
+
+.email-address h3 {
+	color: #1CC0F2;
+	
+}
+
+.email-address {
+	margin: 10em 0 5em 0;
+}
+
+.email-address .fa {
+	background-color: #1CC0F2;
+	color: #fff;
+	margin-right: 1em;
+}
+
+#nombre{
+	background-image: url(./img/person.png);
+	background-repeat: no-repeat;
+	padding-right: 60px;
+	background-position: right 15px center;
+}
+
+#email{
+	background-image: url(./img/mail_grey.png);
+	background-repeat: no-repeat;
+	padding-right: 60px;
+	background-position: right 15px center;
+}
+
+#message{
+	background-image: url(./img/message.png);
+	background-repeat: no-repeat;
+	padding-right: 60px;
+	background-position: right 15px top 5px;
+}
+
+input[type=submit]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 50px;
+}
+
+ul.arrow-list{
+	list-style: none;
+	color:#8E8E8E;
+	font-weight: 500;
+	padding-left:0;
+}
+
+
+ul.arrow-list li{
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding-left: 30px;
+	background: url(./img/arrow_yellow.png) no-repeat center left;
+}
+
+ul.arrow-list-white{
+	list-style: none;
+	color:#8E8E8E;
+	font-weight: 500;
+	padding-left:0;
+	padding-bottom: 15px;
+}
+
+ul.arrow-list-white li{
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding-left: 30px;
+	background: url(./img/arrow_green.png) no-repeat center left;
+}
+
+.lead{
+	margin-bottom: 20px;
+}
+
+.color-box-small {
+	margin-top: 25px;
+}
+
+
+@media (max-width: 480px){
+	.jumbotron h2{
+		font-size:25px;
+	}
+
+	.jumbotron h3{
+		font-size:20px;
+	}
+
+	.jumbotron .logo-big,
+	.jumbotron hr{
+		display: none;
+	}
+
+	.jumbotron-container {
+    	margin: 50px auto;
+	}
+
+    .download-image{
+		background-size: 40px;
+		padding-left: 72px !important;
+	}
+
+	.button.big{
+		font-size:20px;
+	}
+
+	.book-block{
+		font-size: 22px;
+	}
+
+	.book-block span{
+		font-size: 15px;
+		margin-top: 0;
+	}
+
+	.button{
+		margin-right: 0;
+	}
+
+}
+
+
+
